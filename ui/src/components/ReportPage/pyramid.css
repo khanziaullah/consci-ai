@@ -1,0 +1,23 @@
+.image-container .clip-image {
+  width: auto; /* Ensure the image takes up the full width of its container */
+  height: 320px; /* Maintain aspect ratio */
+  /* display: block; Remove any default spacing */
+  /* align-content: center; */
+  /* padding-left: 200px; */
+  clip-path: polygon(
+    0 100px,
+    100% 100px,
+    100% calc(100% - 0),
+    0 calc(100% - 0)
+  ); /* Clip 20 pixels from top and bottom */
+  position: absolute;
+}
+
+.image-container .grey-image {
+  width: auto; /* Ensure the image takes up the full width of its container */
+  height: 320px; /* Maintain aspect ratio */
+  /* display: block; Remove any default spacing */
+  /* align-content: center; */
+  /* padding-left: 200px; */
+  position: absolute;
+}

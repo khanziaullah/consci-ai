@@ -1,0 +1,13 @@
+functions-framework==3.*
+cloudevents
+asyncpg
+pgvector
+langchain
+langchain_community
+transformers
+google-cloud-aiplatform
+google-cloud-storage
+PyPDF2
+langchain-google-cloud-sql-pg
+Flask
+flask-cors

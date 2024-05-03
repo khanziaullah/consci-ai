@@ -1,0 +1,16 @@
+df-messenger {
+  z-index: 999;
+  position: fixed !important;
+  --df-messenger-font-color: #000;
+  --df-messenger-font-family: Google Sans;
+  --df-messenger-chat-background: #f3f6fc;
+  --df-messenger-message-user-background: #d3e3fd;
+  --df-messenger-message-bot-background: #fff;
+  --df-messenger-chat-window-width: 1300px;
+  --df-messenger-chat-window-height: 700px;
+  --df-messenger-chat-window-offset: 2px;
+  --df-messenger-chat-bubble-size: 70px;
+  /* bottom: 16px;*/
+  top: 90vh;
+  left: 92vw;
+}
